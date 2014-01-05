@@ -1,4 +1,4 @@
-[Infamous Open Kang Project](http://www.infamousdevelopment.com/)
+[Chronos Open Source Project](http://www.infamousdevelopment.com/)
 ====================================
 
 
@@ -12,27 +12,27 @@ Initializing Repository
 
 Init core trees without any device/kernel/vendor :
 
-    $ repo init -u https://github.com/IOKP-kitkat/platform_manifest.git -b kitkat
+    $ repo init -u https://github.com/Chronos-Open-Source-Project/platform_manifest.git -b kitkat
 
-Init repo with all devices, kernels and vendors supported by IOKP-kitkat :
+Init repo with all devices, kernels and vendors supported by Chronos-Open-Source-Project :
 
-    $ repo init -u https://github.com/IOKP-kitkat/platform_manifest.git -b kitkat -g all,kernel,device,vendor
+    $ repo init -u https://github.com/Chronos-Open-Source-Project/platform_manifest.git -b kitkat -g all,kernel,device,vendor
 
 Init repo only for a particular device :
 
-    $ repo init -u https://github.com/IOKP-kitkat/platform_manifest.git -b kitkat -g all,-notdefault,<devicename>,<vendorname>
+    $ repo init -u https://github.com/Chronos-Open-Source-Project/platform_manifest.git -b kitkat -g all,-notdefault,<devicename>,<vendorname>
 
-for example, to init only trees needed to build mako :
+for example, to init only trees needed to build jfltecan :
 
-    $ repo init -u https://github.com/IOKP-kitkat/platform_manifest.git -b kitkat -g all,-notdefault,mako,lge
+    $ repo init -u https://github.com/Chronos-Open-Source-Project/platform_manifest.git -b kitkat -g all,-notdefault,jfltecan,samsung
 
 Init repo for multiple devices :
 
-    $ repo init -u https://github.com/IOKP-kitkat/platform_manifest.git -b kitkat -g all,-notdefault,<devicename1>,<devicename2>,<devicename3>,<vendorname1>,<vendorname2>,<vendorname3>
+    $ repo init -u https://github.com/Chronos-Open-Source-Project/platform_manifest.git -b kitkat -g all,-notdefault,<devicename1>,<devicename2>,<devicename3>,<vendorname1>,<vendorname2>,<vendorname3>
 
-for example, to init trees needed to build mako and flo :
+for example, to init trees needed to build jfltecan and mako :
 
-    $ repo init -u https://github.com/IOKP-kitkat/platform_manifest.git -b kitkat -g all,-notdefault,mako,flo,lge,asus
+    $ repo init -u https://github.com/Chronos-Open-Source-Project/platform_manifest.git -b kitkat -g all,-notdefault,jfltecan,mako,samsung,lge
 
 
 sync repo :
@@ -53,6 +53,6 @@ After the sync is finished, please read the [instructions from the Android site]
 You can also build (and see how long it took) for specific devices like this:
 
     . build/envsetup.sh
-    time brunch iokp_mako-userdebug
+    time brunch cosp_jfltecan-userdebug
 
 Remember to `make clobber` every now and then!

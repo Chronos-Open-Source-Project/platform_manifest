@@ -4,7 +4,10 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-
+  
+  <remote  name="Chronos-Open-Source-Project"
+           fetch="https://github.com/" />
+  
   <remote  name="iokp-kitkat"
            fetch="https://github.com/" />
 
