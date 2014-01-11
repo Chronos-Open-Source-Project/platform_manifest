@@ -46,13 +46,12 @@ Building
 
 After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
 
-    . build/envsetup.sh
-    brunch
+    . build/envsetup.sh && time brunch jfltecan
 
 
 You can also build (and see how long it took) for specific devices like this:
 
-    . build/envsetup.sh
-    time brunch cosp_jfltecan-userdebug
+    chmod 755 build.sh
+    ./build.sh -d jfltecan
 
 Remember to `make clobber` every now and then!
