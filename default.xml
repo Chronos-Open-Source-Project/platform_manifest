@@ -52,7 +52,7 @@
            remote="aosp"
            sync-j="16" />
 
-  <project path="build" name="Chronos-Open-Source-Project/build" remote="Chronos-Open-Source-Project" revision="kitkat" groups="pdk">
+  <project path="build" name="IOKP-kitkat/build" remote="iokp-kitkat" revision="kitkat" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="AOKP/art" remote="aokp" revision="kitkat" />
