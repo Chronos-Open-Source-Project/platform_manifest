@@ -113,7 +113,7 @@
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="kitkat" groups="notdefault,device,i9300" />
   <project path="device/samsung/hltetmo" name="IOKP-kitkat/device_samsung_hltetmo" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,hltetmo" />
   <project path="device/samsung/hlte-common" name="IOKP-kitkat/device_samsung_hlte-common" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,hlte,hltetmo,hltexx" />
-  <project path="device/samsung/jf-common" name="IOKP-kitkat/device_samsung_jf-common" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jflteusc,jfltevzw" />
+  <project path="device/samsung/jf-common" name="Chronos-Open-Source-Project/device_samsung_jf-common" remote="Chronos-Open-Source-Project" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jfltecan,jflteusc,jfltevzw" />
   <project path="device/samsung/jfltecsp" name="AOKP/device_samsung_jfltecsp" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecsp" />
   <project path="device/samsung/jfltecri" name="AOKP/device_samsung_jfltecri" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecri" />
   <project path="device/samsung/jfltespr" name="IOKP-kitkat/device_samsung_jfltespr" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltespr" />
@@ -128,8 +128,8 @@
   <project path="device/samsung/n80xx-common" name="IOKP/device_samsung_n80xx-common" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000,n8013" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="kitkat" groups="notdefault,device,maguro" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="kitkat" groups="notdefault,device,manta" />
-  <project path="device/samsung/msm8960-common" name="IOKP-kitkat/device_samsung_msm8960-common" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
-  <project path="device/samsung/qcom-common" name="IOKP-kitkat/device_samsung_qcom-common" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,hercules" />
+  <project path="device/samsung/msm8960-common" name="Chronos-Open-Source-Project/device_samsung_msm8960-common" remote="Chronos-Open-Source-Project" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jfltecan,jflteatt,jflteusc,jfltevzw" />
+  <project path="device/samsung/qcom-common" name="Chronos-Open-Source-Project/device_samsung_qcom-common" remote="Chronos-Open-Source-Project" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jfltecan,jflteatt,jflteusc,jfltevzw,hercules" />
   <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/samsung/t0lte" name="AOKP/device_samsung_t0lte" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
