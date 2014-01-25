@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   
-  <remote  name="Chronos-Open-Source-Project"
+  <remote  name="ChronosRom"
            fetch="https://github.com/" />
   
   <remote  name="iokp-kitkat"
@@ -52,7 +52,7 @@
            remote="aosp"
            sync-j="16" />
 
-  <project path="build" name="Chronos-Open-Source-Project/build" remote="Chronos-Open-Source-Project" revision="kitkat" groups="pdk">
+  <project path="build" name="ChronosRom/build" remote="ChronosRom" revision="kitkat" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="AOKP/art" remote="aokp" revision="kitkat" />
@@ -113,14 +113,14 @@
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="kitkat" groups="notdefault,device,i9300" />
   <project path="device/samsung/hltetmo" name="IOKP-kitkat/device_samsung_hltetmo" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,hltetmo" />
   <project path="device/samsung/hlte-common" name="IOKP-kitkat/device_samsung_hlte-common" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,hlte,hltetmo,hltexx" />
-  <project path="device/samsung/jf-common" name="Chronos-Open-Source-Project/device_samsung_jf-common" remote="Chronos-Open-Source-Project" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jfltecan,jflteusc,jfltevzw" />
+  <project path="device/samsung/jf-common" name="ChronosRom/device_samsung_jf-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jfltecan,jflteusc,jfltevzw" />
   <project path="device/samsung/jfltecsp" name="AOKP/device_samsung_jfltecsp" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecsp" />
   <project path="device/samsung/jfltecri" name="AOKP/device_samsung_jfltecri" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecri" />
   <project path="device/samsung/jfltespr" name="IOKP-kitkat/device_samsung_jfltespr" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltespr" />
   <project path="device/samsung/jfltetmo" name="IOKP-kitkat/device_samsung_jfltetmo" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltetmo" />
   <project path="device/samsung/jfltevzw" name="IOKP-kitkat/device_samsung_jfltevzw" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltevzw" />
-  <project path="device/samsung/jfltecan" name="Chronos-Open-Source-Project/device_samsung_jfltecan" remote="Chronos-Open-Source-Project" revision="kitkat" groups="notdefault,device,jf,jfltecan" />
-  <project path="device/samsung/jflteatt" name="Chronos-Open-Source-Project/device_samsung_jflteatt" remote="Chronos-Open-Source-Project" revision="kitkat" groups="notdefault,device,jf,jflteatt" />
+  <project path="device/samsung/jfltecan" name="ChronosRom/device_samsung_jfltecan" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltecan" />
+  <project path="device/samsung/jflteatt" name="ChronosRom/device_samsung_jflteatt" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jflteatt" />
   <project path="device/samsung/jflteusc" name="AOKP/device_samsung_jflteusc" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflteusc" />
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="kitkat" groups="notdefault,device,l900" />
   <project path="device/samsung/n8013" name="IOKP/device_samsung_n8013" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000" />
@@ -128,8 +128,8 @@
   <project path="device/samsung/n80xx-common" name="IOKP/device_samsung_n80xx-common" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000,n8013" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="kitkat" groups="notdefault,device,maguro" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="kitkat" groups="notdefault,device,manta" />
-  <project path="device/samsung/msm8960-common" name="Chronos-Open-Source-Project/device_samsung_msm8960-common" remote="Chronos-Open-Source-Project" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jfltecan,jflteatt,jflteusc,jfltevzw" />
-  <project path="device/samsung/qcom-common" name="Chronos-Open-Source-Project/device_samsung_qcom-common" remote="Chronos-Open-Source-Project" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jfltecan,jflteatt,jflteusc,jfltevzw,hercules" />
+  <project path="device/samsung/msm8960-common" name="ChronosRom/device_samsung_msm8960-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jfltecan,jflteatt,jflteusc,jfltevzw" />
+  <project path="device/samsung/qcom-common" name="ChronosRom/device_samsung_qcom-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jfltecan,jflteatt,jflteusc,jfltevzw,hercules" />
   <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/samsung/t0lte" name="AOKP/device_samsung_t0lte" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
@@ -357,7 +357,7 @@
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="frameworks/base" name="Chronos-Open-Source-Project/frameworks_base" remote="Chronos-Open-Source-Project" revision="chronos_kitkat" />
+  <project path="frameworks/base" name="ChronosRom/frameworks_base" remote="ChronosRom" revision="chronos_kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -473,8 +473,8 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="notdefault,legacypackages" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="notdefault,legacypackages" />
-  <project path="packages/apps/ROMControl" name="Chronos-Open-Source-Project/packages_apps_ROMControl" remote="Chronos-Open-Source-Project" revision="kitkat" />
-  <project path="packages/apps/Settings" name="Chronos-Open-Source-Project/packages_apps_Settings" remote="Chronos-Open-Source-Project" revision="kitkat" />
+  <project path="packages/apps/ROMControl" name="ChronosRom/packages_apps_ROMControl" remote="ChronosRom" revision="kitkat" />
+  <project path="packages/apps/Settings" name="ChronosRom/packages_apps_Settings" remote="ChronosRom" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -582,7 +582,7 @@
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
   <!-- <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" /> -->
-  <project path="vendor/samsung" name="Chronos-Open-Source-Project/vendor_samsung" remote="Chronos-Open-Source-Project" revision="kitkat" groups="notdefault,vendor,samsung" />
+  <project path="vendor/samsung" name="ChronosRom/vendor_samsung" remote="ChronosRom" revision="kitkat" groups="notdefault,vendor,samsung" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="kitkat" groups="notdefault,vendor,asus" />
 
@@ -592,9 +592,9 @@
 
   <!-- <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" /> -->
 
-  <project path="platform_manifest" name="Chronos-Open-Source-Project/platform_manifest" remote="Chronos-Open-Source-Project" revision="kitkat" />
+  <project path="platform_manifest" name="ChronosRom/platform_manifest" remote="ChronosRom" revision="kitkat" />
 
-  <project path="vendor/chronos" name="Chronos-Open-Source-Project/vendor_chronos" remote="Chronos-Open-Source-Project" revision="kitkat" >
+  <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="ChronosRom" revision="kitkat" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
 
