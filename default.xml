@@ -117,7 +117,7 @@
   <project path="device/samsung/jfltecsp" name="AOKP/device_samsung_jfltecsp" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecsp" />
   <project path="device/samsung/jfltecri" name="AOKP/device_samsung_jfltecri" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecri" />
   <project path="device/samsung/jfltespr" name="IOKP-kitkat/device_samsung_jfltespr" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltespr" />
-  <project path="device/samsung/jfltetmo" name="IOKP-kitkat/device_samsung_jfltetmo" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltetmo" />
+  <project path="device/samsung/jfltetmo" name="ChronosRom/device_samsung_jfltetmo" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltetmo" />
   <project path="device/samsung/jfltevzw" name="IOKP-kitkat/device_samsung_jfltevzw" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltevzw" />
   <project path="device/samsung/jfltecan" name="ChronosRom/device_samsung_jfltecan" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltecan" />
   <project path="device/samsung/jflteatt" name="ChronosRom/device_samsung_jflteatt" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jflteatt" />
