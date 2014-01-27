@@ -81,7 +81,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="ChronosRom/device_lge_mako" remote="ChronosRom" revision="kitkat" groups="notdefault,device,mako" />
-  <project path="device/samsung/jfltecan" name="ChronosRom/device_samsung_hercules" remote="ChronosRom" revision="kitkat" groups="notdefault,device,hercules" />
+  <project path="device/samsung/hercules" name="ChronosRom/device_samsung_hercules" remote="ChronosRom" revision="kitkat" groups="notdefault,device,hercules" />
   <project path="device/samsung/jfltecan" name="ChronosRom/device_samsung_jfltecan" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltecan" />
   <project path="device/samsung/jflteatt" name="ChronosRom/device_samsung_jflteatt" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jflteatt" />
   <project path="device/samsung/msm8960-common" name="ChronosRom/device_samsung_msm8960-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltetmo,jfltecan,jflteatt" />
