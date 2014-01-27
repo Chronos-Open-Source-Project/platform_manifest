@@ -68,10 +68,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/deb" name="IOKP/device_asus_deb" remote="iokp" revision="jb-mr2" groups="notdefault,device,deb" />
-  <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,device,flo" />
-  <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="kitkat" groups="notdefault,device,grouper" />
-  <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="kitkat" groups="notdefault,device,tilapia" />
   <project path="device/common" name="device/common" groups="device" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common"  groups="pdk" />
@@ -82,74 +78,13 @@
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk,notdefault" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk,notdefault" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
-  <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul,m7vzw" />
-  <project path="device/htc/m7att" name="AOKP/device_htc_m7att" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7att" />
-  <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr" />
-  <project path="device/htc/m7tmo" name="AOKP/device_htc_m7tmo" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7tmo" />
-  <project path="device/htc/m7ul" name="AOKP/device_htc_m7ul" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7ul" />
-  <project path="device/htc/m7vzw" name="AOKP/device_htc_m7vzw" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7vzw" />
-  <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul,m7vzw,evita" />
-  <project path="device/lge/d800" name="AOKP/device_lge_d800" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800" />
-  <project path="device/lge/d801" name="AOKP/device_lge_d801" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d801" />
-  <project path="device/lge/d802" name="AOKP/device_lge_d802" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d802" />
-  <project path="device/lge/e980" name="AOKP/device_lge_e980" remote="aokp" revision="kitkat" groups="notdefault,device,e980" />
-  <project path="device/lge/gproj-common" name="AOKP/device_lge_gproj-common" remote="aokp" revision="kitkat" groups="notdefault,device,gproj,e980" />
-  <project path="device/lge/g2-common" name="AOKP/device_lge_g2-common" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800,d801,d802,ls980,vs980" />
-  <project path="device/lge/hammerhead" name="AOKP/device_lge_hammerhead" remote="aokp" revision="kitkat" groups="notdefault,device,hammerhead" />
-  <project path="device/lge/ls980" name="AOKP/device_lge_ls980" remote="aokp" revision="kitkat" groups="notdefault,device,g2,ls980" />
   <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,device,mako" />
-  <project path="device/lge/vs980" name="AOKP/device_lge_vs980" remote="aokp" revision="kitkat" groups="notdefault,device,g2,vs980" />
-  <project path="device/motorola/msm8960dt-common" name="AOKP/device_motorola_msm8960dt-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
-  <project path="device/motorola/qcom-common" name="AOKP/device_motorola_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
-  <project path="device/motorola/xt1053" name="AOKP/device_motorola_xt1053" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053" />
-  <project path="device/motorola/xt1060" name="AOKP/device_motorola_xt1060" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1060" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/d2-common" name="AOKP/device_samsung_d2-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw" />
-  <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2tmo" />
-  <project path="device/samsung/d2att" name="AOKP/device_samsung_d2att" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att" />
-  <project path="device/samsung/d2vzw" name="AOKP/device_samsung_d2vzw" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2vzw" />
-  <project path="device/samsung/i605" name="AOKP/device_samsung_i605" remote="aokp" revision="kitkat" groups="notdefault,device,i605" />
-  <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="kitkat" groups="notdefault,device,i9300" />
-  <project path="device/samsung/hltetmo" name="IOKP-kitkat/device_samsung_hltetmo" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,hltetmo" />
-  <project path="device/samsung/hlte-common" name="IOKP-kitkat/device_samsung_hlte-common" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,hlte,hltetmo,hltexx" />
-  <project path="device/samsung/jf-common" name="ChronosRom/device_samsung_jf-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jfltecan,jflteusc,jfltevzw" />
-  <project path="device/samsung/jfltecsp" name="AOKP/device_samsung_jfltecsp" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecsp" />
-  <project path="device/samsung/jfltecri" name="AOKP/device_samsung_jfltecri" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecri" />
-  <project path="device/samsung/jfltespr" name="IOKP-kitkat/device_samsung_jfltespr" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltespr" />
-  <project path="device/samsung/jfltetmo" name="ChronosRom/device_samsung_jfltetmo" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltetmo" />
-  <project path="device/samsung/jfltevzw" name="IOKP-kitkat/device_samsung_jfltevzw" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltevzw" />
+  <project path="device/samsung/jf-common" name="ChronosRom/device_samsung_jf-common" remote="ChronosRom" revision="kitkat"  groups="notdefault,device,jf,jflteatt,jfltetmo,jfltecan" />
   <project path="device/samsung/jfltecan" name="ChronosRom/device_samsung_jfltecan" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltecan" />
   <project path="device/samsung/jflteatt" name="ChronosRom/device_samsung_jflteatt" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jflteatt" />
-  <project path="device/samsung/jflteusc" name="AOKP/device_samsung_jflteusc" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflteusc" />
-  <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="kitkat" groups="notdefault,device,l900" />
-  <project path="device/samsung/n8013" name="IOKP/device_samsung_n8013" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000" />
-  <project path="device/samsung/n8000" name="IOKP/device_samsung_n8000" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8013" />
-  <project path="device/samsung/n80xx-common" name="IOKP/device_samsung_n80xx-common" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000,n8013" />
-  <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="kitkat" groups="notdefault,device,maguro" />
-  <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="kitkat" groups="notdefault,device,manta" />
-  <project path="device/samsung/msm8960-common" name="ChronosRom/device_samsung_msm8960-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jfltecan,jflteatt,jflteusc,jfltevzw" />
-  <project path="device/samsung/qcom-common" name="ChronosRom/device_samsung_qcom-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jfltecan,jflteatt,jflteusc,jfltevzw,hercules" />
-  <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
-  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
-  <project path="device/samsung/t0lte" name="AOKP/device_samsung_t0lte" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
-  <project path="device/samsung/t0lteatt" name="AOKP/device_samsung_t0lteatt" remote="aokp" revision="kitkat" groups="notdefault,device,t0lteatt" />
-  <project path="device/samsung/t0ltetmo" name="AOKP/device_samsung_t0ltetmo" remote="aokp" revision="kitkat" groups="notdefault,device,t0ltetmo" />
-  <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="kitkat" groups="notdefault,device,toro" />
-  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="kitkat" groups="notdefault,device,maguro,toro,toroplus" />
-  <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
-  <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
-  <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
-  <project path="device/sony/dogo" name="AOKP/device_sony_dogo" remote="aokp" revision="kitkat" groups="notdefault,device,dogo" />
-  <project path="device/sony/odin" name="AOKP/device_sony_odin" remote="aokp" revision="kitkat" groups="notdefault,device,odin" />
-  <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
-  <project path="device/sony/pollux" name="AOKP/device_sony_pollux" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
-  <project path="device/sony/pollux_windy" name="AOKP/device_sony_pollux_windy" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
-  <project path="device/sony/pollux-common" name="AOKP/device_sony_pollux-common" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
-  <project path="device/sony/blue-common" name="AOKP/device_sony_blue-common" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
-  <project path="device/sony/tsubasa" name="AOKP/device_sony_tsubasa" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
-  <project path="device/sony/mint" name="AOKP/device_sony_mint" remote="aokp" revision="kitkat" groups="notdefault,device,mint" />
-  <project path="device/sony/huashan" name="AOKP/device_sony_huashan" remote="aokp" revision="kitkat" groups="notdefault,device,huashan" />
+  <project path="device/samsung/msm8960-common" name="ChronosRom/device_samsung_msm8960-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltetmo,jfltecan,jflteatt" />
+  <project path="device/samsung/qcom-common" name="ChronosRom/device_samsung_qcom-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltetmo,jfltecan,jflteatt,hercules" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -529,7 +464,6 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86,notdefault" />
-
   <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips,notdefault" />
@@ -564,36 +498,19 @@
   <project path="system/qcom" name="AOKP/system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="kitkat" groups="pdk" />
-<!--
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
-  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
-  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
-  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
-  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
--->
   <project path="vendor/iokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
-  <!-- <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" /> -->
   <project path="vendor/samsung" name="ChronosRom/vendor_samsung" remote="ChronosRom" revision="kitkat" groups="notdefault,vendor,samsung" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="kitkat" groups="notdefault,vendor,asus" />
-
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="stable/cm-11.0" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
-
-  <!-- <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" /> -->
-
+  
+  <!-- Chronos -->
   <project path="platform_manifest" name="ChronosRom/platform_manifest" remote="ChronosRom" revision="kitkat" />
-
   <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="ChronosRom" revision="kitkat" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
