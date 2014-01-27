@@ -79,7 +79,7 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk,notdefault" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
-  <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,device,mako" />
+  <project path="device/lge/mako" name="ChronosRom/device_lge_mako" remote="ChronosRom" revision="kitkat" groups="notdefault,device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/jf-common" name="ChronosRom/device_samsung_jf-common" remote="ChronosRom" revision="kitkat"  groups="notdefault,device,jf,jflteatt,jfltetmo,jfltecan" />
   <project path="device/samsung/jfltecan" name="ChronosRom/device_samsung_jfltecan" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltecan" />
