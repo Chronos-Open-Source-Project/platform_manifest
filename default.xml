@@ -14,9 +14,9 @@
   <remote  name="iokp"
            fetch="https://github.com/" />
 
-  <remote name="aicp"
+  <remote  name="omnirom"
            fetch="https://github.com/"
-           review="gerrit.aicp-rom.com" />
+           review="gerrit.omnirom.org" />
 
   <remote  name="cm"
            fetch="https://github.com/" />
@@ -25,28 +25,9 @@
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
-  <remote  name="pa"
-           fetch="https://github.com/AOSPA"
-           review="gerrit.paranoidandroid.co" />
-
-  <remote  name="pac"
-           fetch="https://github.com/PAC-man"
-           review="review.pac-rom.com" />
-
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/"
-           review="http://review.omapzoom.org/" />
-
   <remote  name="muppets"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
-
-  <remote  name="omnirom"
-           fetch="https://github.com/"
-           review="gerrit.omnirom.org" />
-
-  <remote  name="xplodwild"
-           fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
@@ -157,7 +138,6 @@
   <project path="external/f2fs-tools" name="AOKP/external_f2fs-tools" remote="aokp" revision="kitkat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
-  <project path="external/Focal" name="xplodwild/android_external_Focal" remote="xplodwild" revision="master" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="AOKP/external_fsck_msdos" remote="aokp" revision="kitkat" />
   <project path="external/fuse" name="AOKP/external_fuse" remote="aokp" revision="kitkat" />
@@ -361,7 +341,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="aokp" revision="kitkat" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Browser" name="IOKP-kitkat/packages_apps_Browser" remote="iokp-kitkat" revision="kitkat" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="notdefault,legacypackages" />
@@ -370,7 +350,6 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="AOKP/packages_apps_Dialer" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
@@ -384,13 +363,12 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />  
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="notdefault,legacypackages" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="notdefault,legacypackages" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="notdefault,legacypackages" />
