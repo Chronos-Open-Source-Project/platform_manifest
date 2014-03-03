@@ -321,7 +321,7 @@
   <project path="hardware/ti/wpan" name="AOKP/hardware_ti_wpan" remote="aokp" revision="kitkat" />
   <project path="kernel/lge/mako" name="ChronosRom/kernel_lge_mako" remote="ChronosRom" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/samsung/msm8660-common" name="ChronosRom/kernel_samsung_msm8660-common" remote="ChronosRom" revision="cm-11.0" groups="notdefault,kernel,hercules" />
-  <project path="kernel/samsung/jf" name="ChronosRom/kernel_samsung_jf" remote="ChronosRom" revision="kitkat" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
+  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-11.0" groups="notdefault,kernel,jf,jfltecan,jfltetmo,jfltei337,jflte" />
   <project path="libcore" name="AOKP/libcore" remote="aokp" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
