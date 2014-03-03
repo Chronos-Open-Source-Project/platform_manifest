@@ -48,6 +48,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="ChronosRom/device_lge_mako" remote="ChronosRom" revision="kitkat" groups="notdefault,device,mako" />
+  <project path="device/samsung/jflte" name="ChronosRom/device_samsung_jflte" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jflte" />
   <project path="device/samsung/hercules" name="ChronosRom/device_samsung_hercules" remote="ChronosRom" revision="kitkat" groups="notdefault,device,hercules" />
   <project path="device/samsung/jfltecan" name="ChronosRom/device_samsung_jfltecan" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltecan" />
   <project path="device/samsung/jfltetmo" name="ChronosRom/device_samsung_jfltetmo" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jfltetmo" />
