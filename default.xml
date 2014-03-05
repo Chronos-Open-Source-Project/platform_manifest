@@ -52,7 +52,6 @@
   <project path="device/samsung/hercules" name="ChronosRom/device_samsung_hercules" remote="ChronosRom" revision="kitkat" groups="notdefault,device,hercules" />
   <project path="device/samsung/msm8960-common" name="ChronosRom/device_samsung_msm8960-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jflte" />
   <project path="device/samsung/qcom-common" name="ChronosRom/device_samsung_qcom-common" remote="ChronosRom" revision="kitkat" groups="notdefault,device,jf,jflte,hercules" />
-  <project path="device/samsung/jf-common" name="ChronosRom/device_samsung_jf-common" remote="ChronosRom" revision="kitkat"  groups="notdefault,device,jf,jflte" />
   <project path="device/qcom/common" name="ChronosRom/device_qcom_common" remote="ChronosRom" revision="kitkat"  groups="notdefault,device,jf,jflte" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" remote="cm" revision="cm-11.0" />
