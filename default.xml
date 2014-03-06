@@ -319,7 +319,7 @@
   <project path="kernel/lge/mako" name="ChronosRom/kernel_lge_mako" remote="ChronosRom" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/samsung/msm8660-common" name="ChronosRom/kernel_samsung_msm8660-common" remote="ChronosRom" revision="cm-11.0" groups="notdefault,kernel,hercules" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-11.0" groups="notdefault,kernel,jf,jfltecan,jfltetmo,jfltei337,jflte" />
-  <project path="libcore" name="CyanogenMod/libcore" remote="cm" revision="libcore" />
+  <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-11.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
